@@ -1,0 +1,286 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Times New Roman', cursive;
+}
+body{
+	background-image: url(../фото/fon.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-size: cover;
+	margin-right: 10px;
+	margin-left: -px;
+	
+}
+header{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.menu li {
+	margin-right: 65px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.menu, .logo{
+	margin-right: 10px;
+	margin-left: 50px;
+	display: inline-block;
+	vertical-align: middle;
+	
+}
+.logo img {
+	height: 50px;
+	width: 50px;
+	margin-top: 10px;
+
+
+}
+.menu img {
+  height: 50px;
+	width: 50px;
+	margin-top: 10px;
+}
+.menu a {
+	vertical-align: middle;
+	font-family: Times New Roman;
+	font-size: 35px;
+	color: rgb(248, 212, 8);
+	text-decoration: none;
+
+	
+}
+.logo p{
+	vertical-align: middle;
+	font-family: Times New Roman;
+	font-size: 35px;
+	color: black;
+
+}
+.logo a {
+	text-decoration: none;
+
+
+}
+.logo p:hover{
+	color: #26C4FF
+}
+.navbar {
+    list-style-type: none;
+    height: 50px;
+    max-width: 100%;
+    border-radius: 10px 10px;
+    width: center;
+    text-align: center;
+    background-image: url(../фото/fon2.jpg);
+    margin-left: 0%;
+    background-repeat: no-repeat;
+	  background-size: 100% 100%;
+	  background-size: cover;
+    
+      }
+
+.block_1 p, .block_1 a, .block_1 b{
+	font-family: Times New Roman;
+	font-weight: normal;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+}
+.block_1 {
+	border: 2px white solid;
+	border-radius: 10px;
+	padding: 10px;
+	width: 1090px;
+	height: 300px;
+	max-width: 1000px;
+	margin: 15px;
+	
+}
+.textStat {
+	width: 1120px;
+	height: auto;
+	border-radius: 10px;
+	padding: 10px;
+	max-width: 1500px;
+	max-height: auto;
+	min-height: 776px;
+	margin: 1px 0 0 -18px;
+	background-color: #f7ab07;
+}
+.textStat p{
+	font-family: Times New Roman;
+	font-size: 25px;
+	color: ##000000FF;
+	text-align: left;
+	text-align: justify;
+	margin: 15px;
+
+
+}
+.textStat h2 {
+	justify-content: center;
+	vertical-align: middle;
+	font-family: Times New Roman;
+	font-size: 35px;
+	color: black;
+	text-align: center;
+	margin: 50px 0px
+
+}
+.textStat h1{
+	justify-content: center;
+	vertical-align: middle;
+	font-family: Times New Roman;
+	font-size: 35px;
+	color: black;
+	text-align: center;
+	margin: 30px;
+}
+
+.gran {
+	border-radius: 0px;
+	padding: 10px;
+	width: 1120px;
+	max-width: 1120px;
+	max-height: auto;
+	min-height: 800px;
+	margin: 10px 0 0 -18px;
+	background-color: #f7ab07;
+	
+}
+.center{
+	display:flex;
+	justify-content:center ;
+	 
+}
+.centerr{
+	display:flex;
+	justify-content:start ;
+}
+.gran h1{
+	justify-content: center;
+	vertical-align: middle;
+	font-family: Times New Roman;
+	font-size: 35px;
+	color: black;
+	text-align: center;
+	margin: 30px;
+}
+.block_1:hover, .block_1 p:hover, .block_1 a:hover{
+	color: #235CDBFF;
+
+}
+
+
+.block_1 img{
+	width: 35%;
+	max-width: 35%;
+	height: 300px;
+	float:left;
+	margin: 0px 15px 0px;
+
+}
+
+.gran p {
+	vertical-align: middle;
+	font-family: Times New Roman;
+	font-size: 25px;
+	color: ##000000FF;
+	text-align: justify;
+	margin: 15px 1px 1px;
+	
+} 
+.imga p {
+text-align: center;
+}
+.imga img {
+	min-height: 100px;
+	max-width: 100px;
+	max-height: 500px;
+	max-width: 600px;
+	display: inline-block;
+	margin: 20px 10px 20px;
+}
+.textStat img{
+	min-height: 100px;
+	max-width: 100px;
+	max-height: 500px;
+	max-width: 500px;
+	display: inline-block;
+	margin: 20px 10px 20px;
+	text-align: center;
+}
+
+.textStat li {
+	vertical-align: middle;
+	font-family: Times New Roman;
+	font-size: 25px;
+	color: ##000000FF;
+	text-align: left;
+	margin: 15px 95px;
+}
+
+.gran h2 {
+	justify-content: center;
+	vertical-align: middle;
+	font-family: Times New Roman;
+	font-size: 35px;
+	color: black;
+	text-align: center;
+	margin: 50px 0px
+}
+
+@media (max-width: 1250px) and (min-width: 1010px){
+	.menu a {
+	font-size: 25px;
+}
+}  
+
+@media (max-width: 1150px) and (min-width: 1px){
+	.menu a {
+	font-size: 30px;
+}
+.gran {
+	margin: 1px 0 0 -18px;
+}
+.menu li {
+	margin-right: 65px;
+	display: block;
+	vertical-align: middle;
+}
+.navbar{
+	height: 190px;
+}  
+.gran {
+	width: 100%;
+	max-height: auto;
+	min-height: 100px;
+	min-width: 1px;
+	
+}
+.block_1{
+	width: 94%;
+	height: auto;
+	margin: 15px;
+}
+.block_1 img{
+	margin: 0px;
+	max-width: 100px;
+	max-height: 100px;
+	min-width: 50px;
+	min-height: 50px;
+}
+.textStat{
+	width: 100%;
+	height: auto;
+
+}
+.imga  img {
+	max-width: 300px;
+	max-height: 300px;
+	min-width: 50px;
+	min-height: 50px;
+}
+}
